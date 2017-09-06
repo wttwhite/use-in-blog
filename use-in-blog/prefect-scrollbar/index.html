@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/perfect-scrollbar.css">
+  <title>Document</title>
+  <style lang="">
+    .container{position: relative;width:200px;height: 200px;overflow: hidden;}
+    .container div{width:1000px;height: 1000px;background-color: #ccc;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>342424242</div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/perfect-scrollbar.jquery.js"></script> 
+  <script src="js/perfect-scrollbar.js"></script>
+  <script>
+    $('.container').perfectScrollbar();
+  </script>
+</body>
+</html>
